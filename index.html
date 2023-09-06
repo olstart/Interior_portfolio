@@ -48,17 +48,17 @@
     </footer>
 
     <script>
-    document.addEventListener('touchend', function() {
-        if (document.documentElement.clientWidth !== window.innerWidth) {
-            document.body.style.transform = 'scale(1)';
-            document.body.style.transformOrigin = '0 0';
-            setTimeout(function() {
-                document.body.style.transform = '';
-                document.body.style.transformOrigin = '';
-            }, 300);
-        }
-    });
-    <script>
+        document.addEventListener('touchend', function() {
+            if (document.documentElement.clientWidth !== window.innerWidth) {
+                document.body.style.transform = 'scale(1)';
+                document.body.style.transformOrigin = '0 0';
+                setTimeout(function() {
+                    document.body.style.transform = '';
+                    document.body.style.transformOrigin = '';
+                }, 300);
+            }
+        });
+        </script>
 
 </body>
 </html>
